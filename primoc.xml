@@ -99,7 +99,7 @@
 
   <!-- Primoc things -->
   <project path="device/htc/primoc" name="android_device_htc_primoc" remote="jmztaylor" revision="jellybean" />
-  <!-- <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" /> -->
+	<project path="device/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="jmztaylor" revision="jellybean" />
   <!-- <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" /> -->
 
 </manifest>
