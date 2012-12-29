@@ -13,6 +13,8 @@
       fetch="https://git.mozilla.org" />
   <remote name="jmztaylor"
 		  fetch="git://github.com/jmztaylor/" />
+	<remote name="intervigilium"
+				  fetch="git://github.com/intervigilium/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="linaro"
            sync-j="4" />
@@ -98,7 +100,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Primoc things -->
-  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="jmztaylor" revision="jellybean" />
+  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="intervigilium" revision="jellybean" />
 	<project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="jmztaylor" revision="jellybean" />
 	<project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
 
