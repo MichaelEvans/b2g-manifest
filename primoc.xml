@@ -102,7 +102,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Primoc things -->
-  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="intervigilium" revision="jellybean" />
+  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="MichaelEvans" revision="jellybean" />
 	<project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="intervigilium" revision="jellybean" />
 	<project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="jmztaylor" revision="jellybean" />
 	<project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
