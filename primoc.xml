@@ -16,7 +16,13 @@
 	<remote name="intervigilium"
 				  fetch="git://github.com/intervigilium/" />
 	<remote name="MichaelEvans"
-								  fetch="git://github.com/MichaelEvans/" />
+					fetch="git://github.com/MichaelEvans/" />
+	<remote name="simonsimons34"
+					fetch="git://github.com/simonsimons34/" />
+	<remote name="CyanogenMod"
+					fetch="git://github.com/CyanogenMod/" />
+  <remote name="Ll0ir"
+					fetch="git://github.com/Ll0ir/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="linaro"
            sync-j="4" />
@@ -102,9 +108,10 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Primoc things -->
-  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="MichaelEvans" revision="jellybean" />
-	<project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="intervigilium" revision="jellybean" />
+  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="simonsimons34" revision="ics" />
+	<project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="CyanogenMod" revision="ics" />
 	<project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="jmztaylor" revision="jellybean" />
+	<project path="vendor/htc/primoc" name="android_vendor_htc_primoc" remote="Ll0ir" revision="ics" />
 	<project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
 
 </manifest>
