@@ -108,7 +108,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Primoc things -->
-  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="simonsimons34" revision="ics" />
+  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="jmztaylor" revision="ics" />
 	<project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="CyanogenMod" revision="ics" />
 	<project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="jmztaylor" revision="jellybean" />
 	<project path="vendor/htc/primoc" name="android_vendor_htc_primoc" remote="Ll0ir" revision="ics" />
