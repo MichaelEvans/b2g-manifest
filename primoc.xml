@@ -23,6 +23,8 @@
 					fetch="git://github.com/CyanogenMod/" />
   <remote name="Ll0ir"
 					fetch="git://github.com/Ll0ir/" />
+  <remote name="Lloir"
+					fetch="git://github.com/Lloir/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="linaro"
            sync-j="4" />
@@ -109,7 +111,7 @@
 
   <!-- Primoc things -->
   <project path="device/htc/primoc" name="primoc" remote="Ll0ir" revision="ics" />
-	<project path="device/htc/msm7x30-common" name="Primou_msm7x30-common" remote="Ll0ir" revision="ics" />
+	<project path="device/htc/msm7x30-common" name="Primou_msm7x30-common" remote="Lloir" revision="ics" />
 	<project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="jmztaylor" revision="ics-devel" />
 	<project path="vendor/htc/primoc" name="android_vendor_htc_primoc" remote="Ll0ir" revision="ics" />
 	<project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
